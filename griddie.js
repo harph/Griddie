@@ -8,7 +8,7 @@
 
 
 /*
- *	Custom Values
+ *	Custom Variables
  */
 var griddieHorizontalMargin = 40;
 var griddieVerticalMargin = 40;
@@ -22,7 +22,7 @@ var griddieVerticalGuides = true;
 var griddieHorizontalGuidesColor = 'pink';
 var griddieVerticalGuidesColor = 'pink';
 
-/*	End of Custom Values */
+/*	End of Custom Variables */
 
 window.addEventListener('load', function(event){
 	var gridWidth = window.screen.availWidth;
