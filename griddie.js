@@ -25,8 +25,8 @@ var griddieVerticalGuidesColor = 'pink';
 /*	End of Custom Variables */
 
 window.addEventListener('load', function(event){
-	var gridWidth = window.screen.availWidth;
-	var gridHeight = window.screen.availHeight;
+	var gridWidth = document.width;
+	var gridHeight = document.height;
 	var griddieArea = document.createElement('div');
 	griddieArea.setAttribute('id', getGriddieId());
 	griddieArea.setAttribute('style', 'position:absolute; left:0px; top:0px;');
